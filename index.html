@@ -8,24 +8,47 @@
     <title>My Example Website</title>
   </head>
   <body>
-    <header>
-      <ul>
-        <li class="item item1"><a href="#hallo-one">One</a></li>
-        <li class="item item2"><a href="#hallo-two">Two</a></li>
-        <li class="item item3"><a href="#hallo-three">Three</a></li>
-        <li class="item item4"><a href="#hallo-four">Four</a></li>
-        <li class="item item5"><a href="#hallo-five">Five</a></li>
-      </ul>
-    </header>
+    <div class="foo">
+      <header class="header" id="header">
+        <ul>
+          <li class="item item1"><a href="#hallo-one">One</a></li>
+          <li class="item item2"><a href="#hallo-two">Two</a></li>
+          <li class="item item3"><a href="#hallo-three">Three</a></li>
+          <li class="item item4"><a href="#hallo-four">Four</a></li>
+          <li class="item item5"><a href="#hallo-five">Five</a></li>
+        </ul>
+      </header>
+    </div>
     <main>
-      <h1>Hello Example!</h1>
-      <ul>
+      <h1 id="hallo-one">Hello Example!</h1>
+
+      <article class="Card">
+        <h4 class="Card__title Card__title--large">Something</h4>
+        <p class="Card__content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo
+          eum ea totam! Iure obcaecati odit soluta sint quidem similique, ipsam
+          debitis nihil sit iusto, cum aliquid neque placeat quibusdam.
+        </p>
+      </article>
+
+      <article class="Card Card--error mt-16">
+        <h4 class="Card__title">Ooops Error 🙄</h4>
+        <p class="Card__content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta nemo
+          eum ea totam! Iure obcaecati odit soluta sint quidem similique, ipsam
+          debitis nihil sit iusto, cum aliquid neque placeat quibusdam.
+        </p>
+      </article>
+
+      <h2 id="hallo-two">Hello Two!</h2>
+
+      <ul class="List">
         <li class="item001">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, quas
           autem molestiae a rem aliquid quo id voluptatum cupiditate tenetur
           dolore culpa ad doloremque quos harum! Minima natus dolor neque?
         </li>
-        <li class="item002">
+        <li class="item002 mt-16">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad quaerat
           labore illo est! Quae tempora illum impedit nostrum ipsam expedita
           eaque quis mollitia dignissimos delectus! Qui at minima iure unde.
