@@ -8,6 +8,17 @@ html {
   background-color: lightblue;
 }
 
+nav {
+  color: blue;
+}
+
 h1 {
-  color: darkmagenta;
+  color: blue;
+  background-color: rgb(202, 218, 173);
+}
+
+/* I love Pink */
+
+.item {
+  background-color: hotpink;
 }
